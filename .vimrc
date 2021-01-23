@@ -49,6 +49,8 @@ Plug 'heavenshell/vim-jsdoc', {
       \ 'do': 'make install'
       \}
 Plug 'voldikss/vim-floaterm'
+Plug 'godlygeek/tabular', {'for': 'markdown'}
+Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
 
 " Initialize plugin system
 call plug#end()

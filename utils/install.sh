@@ -1,9 +1,7 @@
 # monkeybinbin vim settings and plugins installer
-#
-# created by MonkeyBinBin
 
 vim_folder=~/.vim
-vim_rc=~/.vim_rc
+vim_rc=~/.vimrc
 backup_rand=$RANDOM
 
 # detect if there's a .vim folder
