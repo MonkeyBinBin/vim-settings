@@ -62,8 +62,8 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 - [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next)
 - [connorholyday/vim-snazzy](https://github.com/connorholyday/vim-snazzy)
 
-## 注意事項
+### 注意事項
 
 - Shougo/defx.nvim 套件要求 Vim 8.2 以上版本並支援 python3，並且需要啟用 python3 介面，詳情參考 [Shougo/defx.nvim README.md](https://github.com/Shougo/defx.nvim)
 - Shougo/denite.nvim 套件要求 Vim 8.2 以上版本並支援 python3，並且需要啟用 python3 介面，詳情參考 [Shougo/denite.nvim README.md](https://github.com/Shougo/denite.nvim)
-- Shougo/denite.nvim 套件需額外安裝 ggreer/the_silver_searcher
+- Shougo/denite.nvim 套件由於設定有使用 ggreer/the_silver_searcher 功能，所以需要額外安裝 ggreer/the_silver_searcher
