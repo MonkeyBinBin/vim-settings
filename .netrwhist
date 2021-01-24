@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/thisisbinbin/Projects/html-slicing/src'
+let g:netrw_dirhist_9='/Users/thisisbinbin/Projects/html-slicing/src/templates'
+let g:netrw_dirhist_8='/Users/thisisbinbin/Projects/html-slicing/src'
 let g:netrw_dirhist_7='/Users/MonkeyBinBin/Projects/SassDemo'
 let g:netrw_dirhist_6='/Users/MonkeyBinBin/Projects/tpirepair/src'
 let g:netrw_dirhist_5='/Users/MonkeyBinBin/Projects/tpirepair'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_4='/Users/MonkeyBinBin/Projects/tpirepair/src/views/Auth'
 let g:netrw_dirhist_3='/Users/MonkeyBinBin/Projects/tpirepair/src/views'
 let g:netrw_dirhist_2='/Users/MonkeyBinBin/Projects/tpirepair/src'
 let g:netrw_dirhist_1='/Users/MonkeyBinBin/Projects/tpirepair'
-let g:netrw_dirhist_0='/Users/MonkeyBinBin/Projects/tpirepair/src'
-let g:netrw_dirhist_9='/Users/MonkeyBinBin/Projects/tpirepair'
-let g:netrw_dirhist_8='/Users/MonkeyBinBin/Projects/scinternetbanking/src'

@@ -52,7 +52,6 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 - [leafgarland/typescript-vim](https://github.com/leafgarland/typescript-vim)
 - [maxmellon/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
 - [hail2u/vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
-- [cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim)
 - [ap/vim-css-color](https://github.com/ap/vim-css-color)
 - [leafoftree/vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin)
 

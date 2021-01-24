@@ -12,8 +12,6 @@
     "markdown"
   ],
   "eslint.autoFixOnSave": true,
-  "stylelintplus.autoFixOnSave": true,
-  "stylelintplus.cssInJs": true,
   "tsserver.enableJavascript": false,
   "vetur.trace.server": "verbose",
   "languageserver": {},
