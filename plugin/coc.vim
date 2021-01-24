@@ -181,5 +181,5 @@ let g:coc_global_extensions = [
       \ 'coc-floaterm',
       \ 'coc-emmet',
       \ 'coc-css',
-      \ 'coc-stylelint',
+      \ 'coc-stylelintplus',
       \ ]
