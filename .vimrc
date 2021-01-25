@@ -15,6 +15,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'elzr/vim-json', {'for': 'json'}
 Plug 'stephpy/vim-yaml', {'for': 'yaml'}
+Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
@@ -25,6 +26,7 @@ Plug 'ap/vim-css-color'
 Plug 'tomtom/tcomment_vim'
 Plug 'mhinz/vim-startify'
 Plug 'leafoftree/vim-vue-plugin'
+Plug 'moll/vim-node'
 " to browse files
 if has('nvim')
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }

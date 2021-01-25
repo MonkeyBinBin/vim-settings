@@ -48,12 +48,14 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 
 - [elzr/vim-json](https://github.com/elzr/vim-json)
 - [stephpy/vim-yaml](https://github.com/stephpy/vim-yaml)
+- [othree/html5.vim](https://github.com/othree/html5.vim)
 - [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript)
 - [leafgarland/typescript-vim](https://github.com/leafgarland/typescript-vim)
 - [maxmellon/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
 - [hail2u/vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
 - [ap/vim-css-color](https://github.com/ap/vim-css-color)
 - [leafoftree/vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin)
+- [moll/vim-node](https://github.com/moll/vim-node)
 
 ### 佈景主題
 
