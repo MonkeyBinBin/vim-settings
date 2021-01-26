@@ -62,6 +62,8 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 - [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 - [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next)
 - [connorholyday/vim-snazzy](https://github.com/connorholyday/vim-snazzy)
+- [lmintmate/blue-mood-vim](https://github.com/lmintmate/blue-mood-vim)
+- [rhysd/vim-color-spring-night](https://github.com/rhysd/vim-color-spring-night)
 
 ### 注意事項
 

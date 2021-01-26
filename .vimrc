@@ -10,6 +10,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhartington/oceanic-next'
 Plug 'connorholyday/vim-snazzy'
+Plug 'lmintmate/blue-mood-vim'
+Plug 'rhysd/vim-color-spring-night'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
