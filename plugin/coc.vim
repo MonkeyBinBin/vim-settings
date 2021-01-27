@@ -170,6 +170,9 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " coc-css for scss files
 autocmd FileType scss setl iskeyword+=@-@
 
+" coc-emmet
+" autocmd Filetype html,css,scss imap <silent> <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
 let g:coc_global_extensions = [
       \ 'coc-json',
       \ 'coc-tsserver',

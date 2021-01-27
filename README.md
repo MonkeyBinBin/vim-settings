@@ -35,7 +35,6 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
-- [mattn/emmet-vim](https://github.com/mattn/emmet-vim)
 - [jlanzarotta/bufexplorer](https://github.com/jlanzarotta/bufexplorer)
 - [mhinz/vim-startify](https://github.com/mhinz/vim-startify)
 - [tomtom/tcomment_vim](https://github.com/tomtom/tcomment_vim)
