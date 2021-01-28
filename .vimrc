@@ -36,6 +36,7 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
+Plug 'kristijanhusak/defx-icons'
 " fuzzy search files, string, command...
 " need install ggreer/the_silver_searcher
 " split floating only support for neovim 0.4.0+(nvim_open_win)
