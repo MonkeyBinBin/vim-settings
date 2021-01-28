@@ -53,6 +53,8 @@ Plug 'heavenshell/vim-jsdoc', {
 Plug 'voldikss/vim-floaterm'
 Plug 'godlygeek/tabular', {'for': 'markdown'}
 Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
 
 " Initialize plugin system
 call plug#end()
