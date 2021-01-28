@@ -91,13 +91,13 @@ call defx#custom#column('git', 'indicators', {
       \ 'Unknown'   : '?'
       \ })
 
-call defx#custom#option('_', {
-      \ 'winwidth': 40,
-      \ 'split': 'vertical',
-      \ 'direction': 'topleft',
-      \ 'show_ignored_files': 0,
-      \ 'buffer_name': '',
-      \ 'toggle': 1,
-      \ 'resume': 1
-      \ })
+" call defx#custom#option('_', {
+"       \ 'winwidth': 40,
+"       \ 'split': 'vertical',
+"       \ 'direction': 'topleft',
+"       \ 'show_ignored_files': 0,
+"       \ 'buffer_name': '',
+"       \ 'toggle': 1,
+"       \ 'resume': 1
+"       \ })
 
