@@ -1,5 +1,6 @@
 syntax on
 set number
+set relativenumber
 set title
 set ruler
 set autoread
@@ -70,6 +71,12 @@ augroup BgHighlight
   autocmd!
   autocmd WinEnter * set cul
   autocmd WinLeave * set nocul
+augroup END
+
+augroup NumberToggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
 if &term =~ "screen"
