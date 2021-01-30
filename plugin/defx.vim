@@ -94,6 +94,7 @@ call defx#custom#column('git', 'indicators', {
       \ })
 
 call defx#custom#option('_', {
+      \ 'columns': 'mark:indent:icons:filename:type:size:time',
       \ 'winwidth': 40,
       \ 'split': 'vertical',
       \ 'direction': 'topleft',
