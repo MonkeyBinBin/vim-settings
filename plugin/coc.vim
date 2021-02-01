@@ -164,9 +164,6 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" coc-prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
 " coc-css for scss files
 autocmd FileType scss setl iskeyword+=@-@
 
@@ -176,7 +173,6 @@ autocmd FileType scss setl iskeyword+=@-@
 let g:coc_global_extensions = [
       \ 'coc-json',
       \ 'coc-tsserver',
-      \ 'coc-prettier',
       \ 'coc-eslint',
       \ 'coc-html',
       \ 'coc-angular',
