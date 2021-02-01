@@ -84,10 +84,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
 
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
-
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
@@ -167,6 +163,9 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " coc-css for scss files
 autocmd FileType scss setl iskeyword+=@-@
 
+" coc-prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 " coc-emmet
 " autocmd Filetype html,css,scss imap <silent> <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
@@ -181,4 +180,5 @@ let g:coc_global_extensions = [
       \ 'coc-emmet',
       \ 'coc-css',
       \ 'coc-stylelintplus',
+      \ 'coc-prettier'
       \ ]
