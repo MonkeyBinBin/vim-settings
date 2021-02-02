@@ -1,6 +1,6 @@
 {
+  "javascript.suggestionActions.enabled": false,
   "eslint.autoFixOnSave": true,
-  "tsserver.enableJavascript": false,
   "stylelintplus.cssInJs": true,
   "stylelintplus.autoFixOnSave": true,
   "vetur.trace.server": "verbose",
