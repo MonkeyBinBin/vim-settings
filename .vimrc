@@ -1,5 +1,8 @@
 " need ln from ~/.vimrc
 
+" enable matchit.vim for jump between open and close tags
+packadd! matchit
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
