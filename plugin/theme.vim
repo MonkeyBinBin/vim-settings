@@ -1,3 +1,5 @@
 set termguicolors
-set background=dark
 colorscheme spring-night
+
+" set vim background transparent
+hi Normal guibg=NONE ctermbg=NONE
