@@ -78,3 +78,13 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 cd ~
 ln -s .vim/.tmux.conf .tmux.conf
 ```
+
+### 安裝自訂啟動 tmux 指令
+現有指令：
+- startuptmux:啟動 tmux 建立指定 session 與 window。
+- ide:進入 tmux 後分割視窗指令。
+
+編輯 ~/.bash_profile 或 ~/.zshrc 增加以下 script
+```bash
+[[ ! -f ~/.vim/tmux.ide.sh ]] || source ~/.vim/tmux.ide.sh
+```
