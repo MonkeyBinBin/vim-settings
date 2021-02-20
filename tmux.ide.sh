@@ -5,7 +5,7 @@ function startuptmux () {
   WINDOW_NAME="ide"
 
   # Check to see if we're already running the session
-  tmux has-session -d $SESSION_NAME &> /dev/null
+  tmux has-session -t $SESSION_NAME &> /dev/null
 
   if [ $? != 0 ] ; then
     # Create tmux session with name and assign window name
