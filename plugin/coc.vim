@@ -205,5 +205,6 @@ let g:coc_global_extensions = [
       \ 'coc-css',
       \ 'coc-stylelintplus',
       \ 'coc-prettier',
-      \ 'coc-snippets'
+      \ 'coc-snippets',
+      \ 'coc-tslint-plugin'
       \ ]

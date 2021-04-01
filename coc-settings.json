@@ -1,8 +1,13 @@
 {
   "javascript.suggestionActions.enabled": false,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
   "eslint.autoFixOnSave": true,
   "stylelintplus.cssInJs": true,
   "stylelintplus.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
   "vetur.trace.server": "verbose",
   "languageserver": {},
   "diagnostic.errorSign": "✘",
