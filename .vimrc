@@ -11,10 +11,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'mhartington/oceanic-next'
-Plug 'connorholyday/vim-snazzy'
-Plug 'lmintmate/blue-mood-vim'
-Plug 'rhysd/vim-color-spring-night'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -32,6 +28,14 @@ Plug 'tomtom/tcomment_vim'
 Plug 'mhinz/vim-startify'
 Plug 'leafoftree/vim-vue-plugin'
 Plug 'moll/vim-node'
+" theme plugin
+Plug 'mhartington/oceanic-next'
+Plug 'lmintmate/blue-mood-vim'
+Plug 'rhysd/vim-color-spring-night'
+Plug 'connorholyday/vim-snazzy'
+Plug 'wadackel/vim-dogrun'
+Plug 'fcpg/vim-orbital'
+Plug 'whatyouhide/vim-gotham'
 " to browse files
 if has('nvim')
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
