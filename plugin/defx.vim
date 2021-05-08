@@ -1,20 +1,10 @@
-" Define mappings
-"cnoreabbrev sf Defx -listed -new
-"      \ -columns=indent:mark:icon:icons:filename:git:size
-"      \ -buffer-name=tab`tabpagenr()`<CR>
-" nnoremap <silent>sf :<C-u>Defx -listed -resume
-"       \ -columns=indent:mark:icon:icons:filename:git:size
-"       \ -buffer-name=tab`tabpagenr()`
-"       \ `expand('%:p:h')` -search=`expand('%:p')`<CR>
-" nnoremap <silent>fi :<C-u>Defx -new `expand('%:p:h')` -search=`expand('%:p')`<CR>
-
 nnoremap <silent>sf :Defx <CR>
 
 autocmd FileType defx call s:defx_my_settings()
 function! s:defx_my_settings() abort
   " Define mappings
   nnoremap <silent><buffer><expr> <CR>
-        \ defx#do_action('open')
+        \ defx#do_action('drop')
   nnoremap <silent><buffer><expr> c
         \ defx#do_action('copy')
   nnoremap <silent><buffer><expr> m
