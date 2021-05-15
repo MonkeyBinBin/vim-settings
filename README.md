@@ -30,7 +30,6 @@ sh <(curl -L https://raw.githubusercontent.com/MonkeyBinBin/vim-settings/main/ut
 
 ### 功能增強
 
-- [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
 - [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
