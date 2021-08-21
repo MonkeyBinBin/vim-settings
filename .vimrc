@@ -27,6 +27,8 @@ Plug 'tomtom/tcomment_vim'
 Plug 'mhinz/vim-startify'
 Plug 'leafoftree/vim-vue-plugin'
 Plug 'moll/vim-node'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 " theme plugin
 Plug 'mhartington/oceanic-next'
 Plug 'lmintmate/blue-mood-vim'
