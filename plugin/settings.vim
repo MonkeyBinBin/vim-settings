@@ -124,6 +124,8 @@ nmap <Tab> :tabnext<Return>
 " Split window
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
+" Close window
+nmap sq <C-w>q
 " Move window
 nmap <Space> <C-w>w
 map s<left> <C-w>h
